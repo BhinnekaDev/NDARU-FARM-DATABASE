@@ -1,0 +1,53 @@
+# Direktori Supabase lokal
+.supabase/
+
+# Konfigurasi dan kredensial
+supabase/config.toml
+supabase/.temp/
+supabase/.output/
+supabase/.cache/
+supabase/.secrets/
+
+# File lingkungan (jangan unggah kredensial!)
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+supabase/.env
+
+# Database lokal
+supabase/data/
+supabase/migrations/.history/
+
+# File log dan debug
+*.log
+*.out
+*.err
+debug.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Editor & sistem file
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Docker (jika menggunakan Docker untuk Supabase)
+docker-compose.override.yml
+
+# Build artifacts
+dist/
+build/
+out/
